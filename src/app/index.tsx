@@ -8,7 +8,7 @@ const image = IMAGES["cat-app.jpg"];
 export default function WelcomeScreen() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Welcome to Minimal Reproducible Example Of Expo Router Apple Zoom Bug!</Text>
+            <Text style={styles.title}>Welcome to Minimal Reproducible Example of Expo Router Apple Zoom Bug!</Text>
 
             <Link href="/view-image/cat-app.jpg" asChild>
                 <Pressable>
